@@ -48,7 +48,7 @@ def create_database():
 
     conn.commit()
     conn.close()
-    print("✅ Base de datos creada y poblada con datos de éxito.")
+    print("Base de datos creada y poblada con datos de éxito.")
 
 if __name__ == "__main__":
     create_database()
