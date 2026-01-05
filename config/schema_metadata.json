@@ -1,0 +1,81 @@
+{
+  "database_name": "Demo_Project_IA",
+  "engine": "sqlite",
+  "tables": [
+    {
+      "table_name": "clientes",
+      "description": "Maestro de usuarios y clientes finales.",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "is_pk": true,
+          "is_fk": false,
+          "references": null,
+          "description": "Campo id de la tabla clientes",
+          "is_pii": false
+        },
+        {
+          "name": "nombre",
+          "type": "TEXT",
+          "is_pk": false,
+          "is_fk": false,
+          "references": null,
+          "description": "Campo nombre de la tabla clientes",
+          "is_pii": true
+        },
+        {
+          "name": "ciudad",
+          "type": "TEXT",
+          "is_pk": false,
+          "is_fk": false,
+          "references": null,
+          "description": "Campo ciudad de la tabla clientes",
+          "is_pii": false
+        }
+      ]
+    },
+    {
+      "table_name": "productos",
+      "description": "Catálogo de productos disponibles para la venta.",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "is_pk": true,
+          "is_fk": false,
+          "references": null,
+          "description": "Campo id de la tabla productos",
+          "is_pii": false
+        },
+        {
+          "name": "nombre",
+          "type": "TEXT",
+          "is_pk": false,
+          "is_fk": false,
+          "references": null,
+          "description": "Campo nombre de la tabla productos",
+          "is_pii": true
+        },
+        {
+          "name": "precio",
+          "type": "REAL",
+          "is_pk": false,
+          "is_fk": false,
+          "references": null,
+          "description": "Campo precio de la tabla productos",
+          "is_pii": false
+        },
+        {
+          "name": "stock",
+          "type": "INTEGER",
+          "is_pk": false,
+          "is_fk": false,
+          "references": null,
+          "description": "Campo stock de la tabla productos",
+          "is_pii": false
+        }
+      ]
+    }
+  ]
+}

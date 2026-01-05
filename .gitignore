@@ -1,0 +1,11 @@
+# Ignorar el archivo de variables de entorno (API KEY)
+.env
+
+# Ignorar la base de datos local
+data/*.db
+
+# Ignorar carpetas de Python
+__pycache__/
+*.pyc
+.vscode/
+venv/
