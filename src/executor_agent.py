@@ -18,7 +18,7 @@ def ejecutar_consulta_ia():
     # Nota: Asegúrate de que el JSON esté en la carpeta config
     orchestrator = SQLOrchestrator("config/schema_metadata.json")
     
-    print("\n--- 🤖 AGENTE DE DATOS ACTIVO ---")
+    print("\n---  AGENTE DE DATOS ACTIVO ---")
     pregunta = input("¿Qué información necesitas de la base de datos?: ")
     
     try:

@@ -49,7 +49,7 @@ if __name__ == "__main__":
     pregunta = "¿Cuántos productos tenemos?"
     sql = orchestrator.generate_sql(pregunta)
     
-    print("\n✅ GEMINI RESPONDIÓ:")
+    print("\n GEMINI RESPONDIÓ:")
     print("-" * 40)
     print(sql)
     print("-" * 40)
